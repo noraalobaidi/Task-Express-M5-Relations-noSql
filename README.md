@@ -30,7 +30,3 @@
 7. Find the `tag` using `findByIdAndUpdate` then insert the `post` using `push`.
 8. In the `posts` get route, use `populate` so that fetching posts will get us the `tags` added to this `post`.
 9. In the `tags` get route, do the same so fetching a `tag` will get us the `posts` related to this `post`.
-
-### 🍋 Cascade Delete
-
-Make it that deleting an `author` will delete all `posts` created by this `author`!
